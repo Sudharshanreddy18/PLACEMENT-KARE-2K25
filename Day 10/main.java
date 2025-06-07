@@ -1,4 +1,4 @@
-innterface paymentgateway {
+interface paymentgateway {
     boolean processpayment(double amount);
     String getTeansactionId(String transactionid);
 }
